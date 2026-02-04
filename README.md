@@ -73,7 +73,6 @@ text
 
 ### Installation & Run
 
-
 # 1. Clone the repository
 git clone https://github.com/pradeepan1/skin-disease-detection-ai.git
 cd skin-disease-detection-ai
@@ -88,8 +87,7 @@ pip install -r requirements.txt
 # 4. Run the application
 python app.py
 
-# 5. Open browser
-# http://127.0.0.1:5000/
+# 5. Open browser: http://127.0.0.1:5000/
 ✅ Success! Your AI Skin Disease Detector is now live!
 
 🖼️ How It Works
@@ -173,7 +171,7 @@ Commit changes (git commit -m 'Add amazing feature')
 
 Push to branch (git push origin feature/amazing-feature)
 
-Open Pull Request
+<a href="https://github.com/pradeepan1/skin-disease-detection-ai/compare"><b>Open Pull Request</b></a>
 
 📚 Model Retraining
 bash
@@ -190,14 +188,9 @@ Accuracy not guaranteed for all skin types
 For research/educational purposes only
 
 🔗 Useful Links
-⭐ Star this repository
-🐛 Found a bug? Open an issue
-📋 View all issues
-📈 Releases
-📁 Packages
-
+<p align="center"> ⭐ <a href="https://github.com/pradeepan1/skin-disease-detection-ai"><b>⭐ Star this repo</b></a> &nbsp;|&nbsp; 🐛 <a href="https://github.com/pradeepan1/skin-disease-detection-ai/issues/new"><b>🐛 Open an issue</b></a> &nbsp;|&nbsp; 📋 <a href="https://github.com/pradeepan1/skin-disease-detection-ai/issues"><b>📋 All issues</b></a> &nbsp;|&nbsp; 📈 <a href="https://github.com/pradeepan1/skin-disease-detection-ai/releases"><b>📈 Releases</b></a> &nbsp;|&nbsp; 📁 <a href="https://github.com/users/pradeepan1/packages?repo_name=skin-disease-detection-ai"><b>📁 Packages</b></a> </p>
 📜 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the <a href="https://opensource.org/licenses/MIT"><b>MIT License</b></a> - see the <a href="LICENSE"><b>LICENSE</b></a> file for details.
 
 text
 MIT License
@@ -205,7 +198,9 @@ Copyright (c) 2026 Pradeepan L
 👨‍💻 Author
 Pradeepan L
 BE CSE (AI & ML)
-LinkedIn | GitHub | Portfolio
+<a href="https://linkedin.com/in/pradeepan1"><b>LinkedIn</b></a> |
+<a href="https://github.com/pradeepan1"><b>GitHub</b></a> |
+<a href="https://pradeepan1.github.io"><b>Portfolio</b></a>
 
 🙏 Acknowledgments
 TensorFlow Team
@@ -218,5 +213,4 @@ Dermatology image datasets
 
 Bootstrap 5 Framework
 
-⭐ Star this repository
-🐛 Found a bug? Open an issue
+<p align="center"> <a href="https://github.com/pradeepan1/skin-disease-detection-ai"> <b>⭐ Star this repository</b> </a> &nbsp;|&nbsp; <a href="https://github.com/pradeepan1/skin-disease-detection-ai/issues/new"> <b>🐛 Found a bug? Open an issue</b> </a> </p> ```
