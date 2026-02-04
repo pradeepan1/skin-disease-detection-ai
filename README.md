@@ -1,4 +1,3 @@
-text
 # 🧠 Skin Disease Detection Using AI
 
 ## 🎯 Project Overview
@@ -38,15 +37,16 @@ Built with **TensorFlow/Keras**, **OpenCV**, and **Flask**, this project demonst
 
 ## 🛠 Technologies Stack
 
+
 Backend: Python 3.8+, Flask 2.x, TensorFlow 2.10+, Keras
 Computer Vision: OpenCV 4.6+, NumPy 1.24+
 Frontend: HTML5, CSS3, Bootstrap 5
 Model Format: HDF5 (.h5)
 Deployment: Flask Development Server
-
 text
 
 ## 📂 Project Structure
+
 
 skin-disease-detection/
 │
@@ -61,11 +61,7 @@ skin-disease-detection/
 │ └── styles.css # Custom styles
 ├── uploads/ # Temporary image uploads
 ├── predictions/ # Processed prediction images
-├── utils/
-│ ├── preprocess.py # Image preprocessing functions
-│ └── model_utils.py # Model loading & prediction
 └── README.md
-
 text
 
 ## 🚀 Quick Start
@@ -73,7 +69,7 @@ text
 ### Prerequisites
 - Python 3.8 or higher
 - pip 21.0 or higher
-- 8GB+ RAM recommended (for model loading)
+- 8GB+ RAM recommended
 
 ### Installation & Run
 
@@ -92,10 +88,9 @@ pip install -r requirements.txt
 # 4. Run the application
 python app.py
 
-# 5. Open browser
-# http://127.0.0.1:5000/
-✅ Success! Your AI Skin Disease Detector is now live!
+# 5. Open browser: http://127.0.0.1:5000/
 
+✅ Success! Your AI Skin Disease Detector is now live!
 🖼️ How It Works
 text
 1. User Uploads Skin Image (.jpg, .png, .jpeg)
@@ -107,9 +102,9 @@ text
 4. Top-3 Predictions with Confidence Scores
    ↓
 5. Results Displayed with Visualizations
-🧠 Model Architecture
-The CNN model uses a custom Transfer Learning approach:
 
+🧠 Model Architecture
+The CNN model uses a custom Transfer Learning approach:
 text
 Input (224x224x3) → Conv2D → MaxPooling → Dropout
           ↓
@@ -118,13 +113,12 @@ Conv Block 1 → Conv Block 2 → Conv Block 3
 GlobalAvgPooling → Dense(256) → Dropout(0.5)
           ↓
 Output: 8 Classes (Softmax)
+
 Training Dataset: 12,500+ labeled skin images
 Validation Accuracy: 94.2%
 Top-3 Accuracy: 97.8%
-
 🔧 Configuration
-Create .env file for custom settings:
-
+Create .env file:
 text
 FLASK_ENV=production
 UPLOAD_FOLDER=uploads
@@ -132,12 +126,25 @@ MAX_CONTENT_LENGTH=16MB
 MODEL_PATH=model/skin_disease_model.h5
 DEBUG=True
 PORT=5000
+
 📈 Performance Metrics
-Metric	Training	Validation	Test
-Accuracy	97.3%	94.2%	93.8%
-Precision	96.8%	94.1%	93.5%
-Recall	95.9%	93.7%	93.2%
-F1-Score	96.3%	93.9%	93.3%
+MetricTrainingValidationTest
+Accuracy
+97.3%
+94.2%
+93.8%
+Precision
+96.8%
+94.1%
+93.5%
+Recall
+95.9%
+93.7%
+93.2%
+F1-Score
+96.3%
+93.9%
+93.3%
 🩹 Usage Examples
 text
 ✅ Good Examples:
@@ -150,78 +157,53 @@ text
 - Images with hair covering lesion
 - Very small images (<100px)
 - Non-skin images
+
 🌐 Deployment Options
-1. Heroku (Free Tier)
+1. Heroku
 bash
 heroku create
 git push heroku main
 heroku open
+
 2. Docker
 text
-# Dockerfile
 FROM python:3.9-slim
 WORKDIR /app
 COPY . .
 RUN pip install -r requirements.txt
 EXPOSE 5000
 CMD ["python", "app.py"]
-3. Production Server (Gunicorn + Nginx)
+
+3. Production (Gunicorn)
 bash
 pip install gunicorn
 gunicorn --workers 4 --bind 0.0.0.0:5000 app:app
+
 🤝 Contributing
 Fork the repository
-
 Create feature branch (git checkout -b feature/amazing-feature)
-
 Commit changes (git commit -m 'Add amazing feature')
-
 Push to branch (git push origin feature/amazing-feature)
-
 Open Pull Request
-
 📚 Model Retraining
-python
-# train.py (included in utils/)
+bash
 python utils/train_model.py --dataset ./data --epochs 50 --batch 32
+
 ⚠️ Important Disclaimer
 🔬 This is a proof-of-concept educational project, NOT a medical diagnostic tool.
-
 Always consult dermatologists for medical advice
-
 Model trained on limited dataset
-
 Accuracy not guaranteed for all skin types
-
 For research/educational purposes only
-
-🔗 Related Projects
-Skin Cancer Detection
-
-Dermatology AI Assistant
-
-Medical Image Analysis
-
 📜 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
+MIT License - see the LICENSE file for details.
 text
 MIT License
 Copyright (c) 2026 Pradeepan L
+
 👨‍💻 Author
 Pradeepan L
 BE CSE (AI & ML)
-LinkedIn | GitHub | Portfolio
-
-🙏 Acknowledgments
-TensorFlow Team
-
-Keras Documentation
-
-Flask Community
-
-Dermatology image datasets
-
+LinkedIn | GitHub
 ⭐ Star this repository if you found it helpful!
-
-🐛 Found a bug? Open an issue
+🐛 Found a bug? Open an issue
