@@ -206,4 +206,4 @@ Pradeepan L
 BE CSE (AI & ML)
 LinkedIn | GitHub
 ⭐ Star this repository if you found it helpful!
-🐛 Found a bug? Open an issue
+🐛🐛 Found a bug? [Open an issue](https://github.com/pradeepan1/skin-disease-detection-ai/issues/new)
