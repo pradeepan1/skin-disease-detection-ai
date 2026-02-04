@@ -73,7 +73,6 @@ text
 
 ### Installation & Run
 
-```bash
 # 1. Clone the repository
 git clone https://github.com/pradeepan1/skin-disease-detection-ai.git
 cd skin-disease-detection-ai
@@ -205,5 +204,7 @@ Copyright (c) 2026 Pradeepan L
 Pradeepan L
 BE CSE (AI & ML)
 LinkedIn | GitHub
-⭐ Star this repository if you found it helpful!
-🐛🐛 Found a bug? [Open an issue](https://github.com/pradeepan1/skin-disease-detection-ai/issues/new)
+---
+
+⭐ [Star this repo](https://github.com/pradeepan1/skin-disease-detection-ai)
+🐛 Found a bug? [Open an issue](https://github.com/pradeepan1/skin-disease-detection-ai/issues/new)
