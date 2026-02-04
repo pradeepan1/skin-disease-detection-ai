@@ -9,7 +9,7 @@ Built with **TensorFlow/Keras**, **OpenCV**, and **Flask**, this project demonst
 [![GitHub stars](https://img.shields.io/github/stars/pradeepan1/skin-disease-detection-ai?style=social)](https://github.com/pradeepan1/skin-disease-detection-ai)
 [![GitHub forks](https://img.shields.io/github/forks/pradeepan1/skin-disease-detection-ai?style=social)](https://github.com/pradeepan1/skin-disease-detection-ai)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
 ## ✨ Features
 
@@ -69,7 +69,7 @@ text
 ### Prerequisites
 - Python 3.8 or higher
 - pip 21.0 or higher
-- 8GB+ RAM recommended
+- 8GB+ RAM recommended (for model loading)
 
 ### Installation & Run
 
@@ -88,7 +88,8 @@ pip install -r requirements.txt
 # 4. Run the application
 python app.py
 
-# 5. Open browser: http://127.0.0.1:5000/
+# 5. Open browser
+# http://127.0.0.1:5000/
 ✅ Success! Your AI Skin Disease Detector is now live!
 
 🖼️ How It Works
@@ -118,7 +119,7 @@ Validation Accuracy: 94.2%
 Top-3 Accuracy: 97.8%
 
 🔧 Configuration
-Create .env file:
+Create .env file for custom settings:
 
 text
 FLASK_ENV=production
@@ -146,7 +147,7 @@ text
 - Very small images (<100px)
 - Non-skin images
 🌐 Deployment Options
-1. Heroku
+1. Heroku (Free Tier)
 bash
 heroku create
 git push heroku main
@@ -159,7 +160,7 @@ COPY . .
 RUN pip install -r requirements.txt
 EXPOSE 5000
 CMD ["python", "app.py"]
-3. Production (Gunicorn)
+3. Production Server (Gunicorn + Nginx)
 bash
 pip install gunicorn
 gunicorn --workers 4 --bind 0.0.0.0:5000 app:app
@@ -188,8 +189,15 @@ Accuracy not guaranteed for all skin types
 
 For research/educational purposes only
 
+🔗 Useful Links
+⭐ Star this repository
+🐛 Found a bug? Open an issue
+📋 View all issues
+📈 Releases
+📁 Packages
+
 📜 License
-MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 text
 MIT License
@@ -197,8 +205,18 @@ Copyright (c) 2026 Pradeepan L
 👨‍💻 Author
 Pradeepan L
 BE CSE (AI & ML)
-LinkedIn | GitHub
+LinkedIn | GitHub | Portfolio
 
-⭐ Star this repository if you found it helpful!
+🙏 Acknowledgments
+TensorFlow Team
 
+Keras Documentation
+
+Flask Community
+
+Dermatology image datasets
+
+Bootstrap 5 Framework
+
+⭐ Star this repository
 🐛 Found a bug? Open an issue
