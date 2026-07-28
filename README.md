@@ -153,7 +153,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # 5. Run the application
-python app.py
+python app1.py
 
 # 6. Open your browser
 # http://127.0.0.1:5000/
